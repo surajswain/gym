@@ -1,0 +1,132 @@
+body{
+    background-image: url('3.jpg');                                       
+background-size: 1299px;
+/* width: 300px; */                                  
+height: 700px;
+color: white;
+font-family: 'Lobster', cursive;
+/* font-family: 'Ubuntu', sans-serif; */
+/* opacity: 0.5; */
+
+}
+
+.left{
+    display: inline-block;
+    /* border: 3px solid red; */
+    position: absolute;
+    top:18px;
+    left:25px;
+}
+.left h4{
+    margin: 2px 2px;
+    color: rgb(246, 235, 235);
+}
+.left img{
+    display: block;
+    width: 84px;
+    margin: auto;
+
+    border-radius: 35px;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 25px auto;
+   
+    /* border: 3px solid green; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    font-size: 19px;
+    padding: 1px 10px;
+    list-style-type:none;
+  display: inline-block;
+  
+}
+.navbar li a {
+    color:white;
+    text-decoration: none; 
+    
+}
+.navbar li a:hover {
+    color:rgb(211, 204, 204);
+    text-decoration: underline; 
+    
+}
+
+.navbar li a:active {
+    color:rgb(218, 135, 135);
+    text-decoration: underline; 
+    
+}
+
+
+.right{
+    display: inline-block;
+    
+    position: absolute;
+    top:42px;
+    right:25px;
+    /* border: 3px solid blue; */
+}
+
+.btn{
+   color: rgb(227, 227, 240);
+   background-color: rgb(79 30 30);
+    margin: 4px 5px;
+    padding: 4px 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(102, 52, 52);
+
+}
+
+.container{
+  text-align: center;
+  font-size: 20px;
+    border: 3px solid rgb(253, 253, 253);
+    margin: 80px auto;
+    padding: 10px 10px;
+    width:33%;
+    border-radius: 15px;
+    backdrop-filter: blur(3px) brightness(95%);
+    
+font-family: 'Lobster', cursive;
+
+
+}
+
+.formgroup input{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    display: block;
+    margin: 4px auto;
+    padding: 2px 10px;
+    width: 75%;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.fbtn{
+    text-align: center;
+    /* color: rgb(6, 6, 85); */
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 9px auto;
+    padding: 3px 5px;
+    font-size: 23px;
+    width: 80%;
+    border-radius: 10px;
+    /* background-color: rgb(178, 170, 170); */
+    background-color: rgb(244, 244, 226);
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    
+}
+.fbtn:hover{
+    background-color: rgb(253, 245, 205);
+}
